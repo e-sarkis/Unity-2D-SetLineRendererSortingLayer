@@ -18,7 +18,7 @@ public class SetLineRendererSortingLayer : MonoBehaviour
 		lr = this.GetComponent<LineRenderer>();
 	}
 
-	void Update() 
+	void Start() 
 	{
 		lr.sortingLayerName = SortingLayer;
 		lr.sortingOrder = OrderInLayer;
