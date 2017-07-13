@@ -23,5 +23,9 @@ public class SetLineRendererSortingLayer : MonoBehaviour
 		lr.sortingLayerName = SortingLayer;
 		lr.sortingOrder = OrderInLayer;
 	}
-		
+	
+	void SetLROrder(int newOrderInLayer = 0)
+	{
+		lr.sortingOrder = newOrderInLayer;
+	}
 }
